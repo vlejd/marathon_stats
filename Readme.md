@@ -12,8 +12,11 @@ Statistics about Marathons in Slovakia.
 
 ### Stuff to do
 - download the data
+    - [x] MMM Kosice
+    - [ ] CSOB Marathon
+    - [ ] BB Marathon
+    - [ ] Goral
+    - [ ] Kysucky Maraton
 - parse the data
 - match names
 - magic
-
-
