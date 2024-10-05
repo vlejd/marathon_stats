@@ -2,13 +2,14 @@ import datetime
 from loguru import logger
 import os
 import requests
+from constants import *
 import time
 
 
 def main():
     current_year = datetime.datetime.today().year
     logger.info(f"Current year:", current_year)
-    storage_path = "data/mmmkosice/html/"
+    storage_path = os.path.join(MMMKOSICE_STORAGE_PATH, HTML_PATH)
     os.makedirs(storage_path, exist_ok=True)
 
     FIRST_YEAR = 1924
